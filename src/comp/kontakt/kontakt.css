@@ -1,0 +1,47 @@
+.section-container {
+    width: 70%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.advokater {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(180px, 0.5fr));
+    grid-template-rows: repeat(2, 0.5fr);
+}
+
+.advokat {
+    max-width: 150px;
+    max-height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.advokatbox {
+    position: relative;
+}
+
+.advokatbox::before {
+    left: -3px;
+    top: -13px;
+    position: absolute;
+    content: "_";
+    color: #0075c8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.advokatbox h3 {
+    font-size: 0.8em;
+    margin-bottom: 0.2rem;
+
+}
+
+.advokatbox p {
+    font-size: 0.8em;
+
+}
+
+.advokatbox:hover {
+    transform: scale(1.10);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 1);
+}

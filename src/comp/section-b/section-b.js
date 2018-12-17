@@ -11,8 +11,8 @@ export default class SectionB extends React.Component {
                     <div className="sectionb_h1">"</div>
                     <div className="sectionb_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, repellendus. Laboriosam mollitia ut nesciunt sunt nam animi reiciendis sapiente accusamus!</div>
                     <hr className="hr_sectionbox"/>
-                </div>
                 <div className="read-more-b"><a href="#kontakt">Länktext ></a></div>
+                </div>
 
                 <img src={gasell} alt="" className="img-gasell"/>
                 <div className="imgbutton"></div>

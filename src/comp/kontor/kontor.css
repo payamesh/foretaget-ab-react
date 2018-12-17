@@ -1,0 +1,64 @@
+.grid {
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 0.2fr);
+}
+.textboxKontor {
+    margin-left: 0;
+    grid-column: 3/7;
+    grid-row: 1/6;
+    background-color: white;
+}
+.kontor_h4 {
+    position: relative;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.kontor_h4:before {
+    left: -40px;
+    top: -14px;
+    position: absolute;
+    content: "___";
+    color: #0075c8;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.kontor_h2 {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    word-wrap: break-word
+}
+
+.kontor_p {
+    font-family: Muli;
+    font-size: 11px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.blue-color{
+    color:blue;
+}
+.smallmap{
+    margin-left:10px;
+    grid-column: 1/5;
+    grid-row:2;
+}

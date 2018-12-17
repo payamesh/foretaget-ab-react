@@ -4,6 +4,7 @@ import './nav.css';
 export default class MyNavBar extends React.Component {
     render() {
         return(
+            <nav>
         <div className="nav-grid">
             <ul className="nav-main">
                 <li><a href="#start">START /</a></li>
@@ -13,6 +14,9 @@ export default class MyNavBar extends React.Component {
              </ul>
              <p className="nav-company-name">Företag AB</p>
         </div>
+
+
+            </nav>
         
         );
     }

@@ -1,0 +1,25 @@
+.logga{
+    height: 50px;
+    width: 50px;
+}
+.hr_separator{
+    border: 3px solid black;
+}
+.section-container {
+    width: 70%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.footerbox {
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+.footergrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.footer-kontakt{
+    grid-column: 5/7;
+}
